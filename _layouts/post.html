@@ -5,10 +5,9 @@
 	{% include bar.html %}
         {% include svg-icons.html %}
         {% include header-post.html %}
-        {% include adsense-1.html %}
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-            <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+	    <article role="article" id="scroll" class="post-content" itemprop="articleBody">
+                {% include adsense-1.html %}
                 {{ content }}
             </article>
             {% include share.html %}
